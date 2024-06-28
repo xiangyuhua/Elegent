@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal"
+    >
+
+    <Image
+        ohos:id="$+id:img1"
+        ohos:height="match_parent"
+        ohos:width="0"
+        ohos:weight="1"
+        ohos:scale_mode="zoom_start"
+        ohos:right_margin="10vp"/>
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0"
+        ohos:weight="2"
+        ohos:orientation="vertical">
+        <Text
+            ohos:id="$+id:cloth_name"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="17vp"
+            ohos:text_color="#000000"
+            ohos:bottom_margin="10vp"
+            ohos:truncation_mode="ellipsis_at_end"
+            ohos:max_text_lines="2"
+            />
+        <Text
+            ohos:id="$+id:cloth_price"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="¥100"
+            ohos:text_size="14fp"
+            ohos:text_color="#FF0000"/>
+    </DirectionalLayout>
+
+
+
+</DirectionalLayout>

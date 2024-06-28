@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:id="$+id:cart_item_layout"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal"
+    ohos:padding="10vp"
+    ohos:background_element="#FFFFFF">
+
+    <Image
+        ohos:id="$+id:commodity_img"
+        ohos:height="100vp"
+        ohos:width="100vp"
+        ohos:scale_mode="zoom_start"
+        ohos:right_margin="10vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0"
+        ohos:weight="1"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:commodity_tName"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000"
+            ohos:bottom_margin="5vp"
+            ohos:truncation_mode="ellipsis_at_end"/>
+        <Text
+            ohos:id="$+id:commodity_Size"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="15vp"
+            ohos:text_color="#000000"/>
+        <Text
+            ohos:id="$+id:commodity_Price"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="14vp"
+            ohos:text_color="#FF0000"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:decreaseBtn"
+                ohos:height="match_content"
+                ohos:width="40vp"
+                ohos:text="-"
+                ohos:text_size="20fp"
+                ohos:background_element="#CCCCCC"
+                ohos:padding="0vp"
+                ohos:right_margin="5vp"/>
+
+            <Text
+                ohos:id="$+id:commodity_num"
+                ohos:height="match_content"
+                ohos:width="40vp"
+                ohos:text="1"
+                ohos:text_size="16fp"
+                ohos:text_alignment="center"/>
+
+            <Button
+                ohos:id="$+id:increaseBtn"
+                ohos:height="match_content"
+                ohos:width="40vp"
+                ohos:text="+"
+                ohos:text_size="20fp"
+                ohos:background_element="#CCCCCC"
+                ohos:padding="0vp"
+                ohos:left_margin="5vp"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

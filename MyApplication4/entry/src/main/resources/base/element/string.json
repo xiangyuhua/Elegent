@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "userdataability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "pagesliderprovider_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "pagesliderprovider_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_PageSliderProvider",
+      "value": "entry_PageSliderProvider"
+    },
+    {
+      "name": "commoditydataability_description",
+      "value": "hap sample empty provider"
+    }
+  ]
+}

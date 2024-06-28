@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <!-- 商品图片 -->
+    <Image
+        ohos:id="$+id:productImage"
+        ohos:height="400vp"
+        ohos:width="match_parent"
+        ohos:scale_mode="zoom_center"/>
+
+    <!-- 商品信息 -->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="16vp"
+        ohos:orientation="vertical"
+        ohos:weight="1">
+
+        <!-- 商品名称 -->
+        <Text
+            ohos:id="$+id:productName"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="20fp"
+            ohos:text_color="#000000"
+            ohos:bottom_margin="8vp"/>
+
+        <!-- 商品价格 -->
+        <Text
+            ohos:id="$+id:productPrice"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="18fp"
+            ohos:text_color="#FF0000"
+            ohos:bottom_margin="16vp"/>
+
+        <!-- 尺码选择 -->
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:bottom_margin="16vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="选择尺码："
+                ohos:text_size="16vp"
+                ohos:text_color="#333333"
+                ohos:bottom_margin="8vp"/>
+
+            <!-- RadioButton组 -->
+            <RadioContainer
+                ohos:id="$+id:sizeSelect"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <RadioButton
+                    ohos:id="$+id:sizeS"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="S"
+                    ohos:text_size="15vp"
+                    ohos:text_color="#000000"
+                    ohos:background_element="#21A8FD"
+                    ohos:right_margin="16vp"/>
+
+                <RadioButton
+                    ohos:id="$+id:sizeM"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="M"
+                    ohos:text_size="15vp"
+                    ohos:text_color="#000000"
+                    ohos:background_element="#21A8FD"
+                    ohos:right_margin="16vp"/>
+
+                <RadioButton
+                    ohos:id="$+id:sizeL"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="L"
+                    ohos:text_size="15vp"
+                    ohos:text_color="#000000"
+                    ohos:background_element="#21A8FD"
+                    ohos:right_margin="16vp"/>
+
+                <RadioButton
+                    ohos:id="$+id:sizeXL"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="XL"
+                    ohos:text_size="15vp"
+                    ohos:text_color="#000000"
+                    ohos:background_element="#21A8FD"/>
+            </RadioContainer>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <!-- 按钮区域 -->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:padding="16vp"
+        ohos:alignment="bottom">
+
+        <!-- 加入购物车按钮 -->
+        <Button
+            ohos:id="$+id:addToCartBtn"
+            ohos:height="60vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="加入购物车"
+            ohos:background_element="#21A8FD"
+            ohos:text_size="23vp"
+            ohos:text_color="#FFFFFF"
+            ohos:end_margin="8vp"/>
+
+        <!-- 立即购买按钮 -->
+        <Button
+            ohos:id="$+id:buyBtn"
+            ohos:height="60vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="立即购买"
+            ohos:background_element="#FF6347"
+            ohos:text_size="23vp"
+            ohos:text_color="#FFFFFF"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

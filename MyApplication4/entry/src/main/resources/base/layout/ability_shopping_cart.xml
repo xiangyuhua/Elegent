@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="0"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        ohos:orientation="vertical">
+        <ListContainer
+            ohos:id="$+id:cartListContainer"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#CCCCCC"/>
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        ohos:orientation="horizontal"
+        ohos:background_element="#F5F5F5"
+        ohos:bottom_margin="10vp">
+
+        <Text
+            ohos:id="$+id:totalPriceText"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="总计：¥0.00"
+            ohos:text_size="30fp"
+            ohos:text_color="#000000"/>
+
+        <Button
+            ohos:id="$+id:checkoutButton"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="结算"
+            ohos:background_element="#21A8FD"
+            ohos:text_size="30fp"
+            ohos:text_color="#FFFFFF"/>
+    </DirectionalLayout>
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="120vp"
+        ohos:width="match_parent"
+        ohos:layout_alignment="bottom"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:id="$+id:homePageBtn1"
+            ohos:height="70vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="首页"
+            ohos:background_element="#21A8FD"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_size="24fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text_alignment="center"
+            ohos:margin="5vp"/>
+        <Button
+            ohos:id="$+id:cartBtn2"
+            ohos:height="70vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="购物车"
+            ohos:background_element="#21A8FD"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_size="24fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text_alignment="center"
+            ohos:margin="5vp"/>
+        <Button
+            ohos:id="$+id:selfBtn3"
+            ohos:height="70vp"
+            ohos:width="0"
+            ohos:weight="1"
+            ohos:text="个人"
+            ohos:background_element="#21A8FD"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_size="24fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text_alignment="center"
+            ohos:margin="5vp"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>
